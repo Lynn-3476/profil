@@ -1,9 +1,10 @@
 body {
   background-color: #C7E3E1; /*"warna biru tua "*/
-  font-family: Playfair-display,sans-serif;
+  font-family: Playfair-display, sans-serif;
   color: #9D9086;
+}
 
-  .kartu-profil {
+.kartu profil {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
@@ -12,12 +13,12 @@ body {
     box-shadow: 4px; 8px: rgba;
   }
 
-
-.kartu-profil img {
+.kartu profil img {
   width: 150px;
   border-rdius: 50px;
 }
-.kartu-profil {
+
+.kartu profil {
   text-align: center; 
 }
     
