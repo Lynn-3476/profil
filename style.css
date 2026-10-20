@@ -1,26 +1,24 @@
 body {
-  background-color: C7E3E1; /*"warna biru tua "*/
+  background-color: #C7E3E1; /*"warna biru tua "*/
   font-family: Playfair-display,sans-serif;
-  color: 9D9086;
+  color: #9D9086;
 
   .kartu-profil {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
-
-  background-color: indigo;
-  border-radius: 20px;
-  box-shadow: 4px; 8px: rgba
-
-
-
-  .kartu-profil img {
-
-    width: 150px;
-    border-rdius: 50px;
+    background-color: indigo;
+    border-radius: 20px;
+    box-shadow: 4px; 8px: rgba;
   }
-    .kartu-profil (
 
-    text-align: center; 
+
+.kartu-profil img {
+  width: 150px;
+  border-rdius: 50px;
+}
+.kartu-profil {
+  text-align: center; 
+}
     
     
