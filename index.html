@@ -1,17 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-        <title>Profil Saya - hanif</title>
-        <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Setoran Sederhana</title>
+    
+    <!-- Menghubungkan file CSS eksternal untuk mempercantik tampilan -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div class="kartu-profil">
-                <img src="foto-profil.jpg" alt="Foto profil saya">
-                <h1>Nama Lengkap Anda</h1>
-                <p>Siswa SMK yang tertarik dengan teknologi dan desain. Selamat datang di website pertama saya!</p>
-                <a href="https://www.instagram.com/usernameanda">Kunjungi Instagram Saya</a>
-                <button id="sapaButton">Sapa Saya!</button>
+
+    <!-- Bagian Utama / Container untuk merapikan posisi di tengah -->
+    <div class="container">
+        <h1>Form Setoran</h1>
+        
+        <!-- Form input data -->
+        <div class="form-group">
+            <label for="namaInput">Nama:</label>
+            <input type="text" id="namaInput" placeholder="Masukkan nama kamu...">
         </div>
-        <script src="script.js"></script>
+
+        <div class="form-group">
+            <label for="setoranInput">Jumlah Setoran:</label>
+            <input type="number" id="setoranInput" placeholder="Masukkan jumlah...">
+        </div>
+
+        <!-- Tombol interaktif -->
+        <button id="btnSimpan">Simpan Data</button>
+
+        <!-- Area untuk menampilkan hasil dari JavaScript -->
+        <div id="outputArea"></div>
+    </div>
+
+    <!-- Menghubungkan file JavaScript di bagian bawah agar HTML dimuat terlebih dahulu -->
+    <script src="script.js"></script>
 </body>
 </html>
