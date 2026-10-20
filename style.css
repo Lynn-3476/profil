@@ -3,7 +3,7 @@ body {
   font-family: Playfair-display,sans-serif;
   color: 9D9086;
 
-  .kartu profil {
+  .kartu-profil {
     width: 300px;
     margin: 50px auto;
     padding: 20px;
@@ -14,7 +14,7 @@ body {
 
 
 
-  .kartu profil img {
+  .kartu-profil img {
 
     width: 150px;
     border-rdius: 50px;
