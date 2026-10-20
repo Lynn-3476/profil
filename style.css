@@ -1,23 +1,80 @@
+/* Mengatur font dasar dan warna latar belakang halaman */
 body {
-  background-color: #2F4F4F;
-  font-family: Playfair-Display, sans-serif;
-  color: #191970;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    
+    /* Menggunakan Flexbox agar seluruh konten otomatis berada di tengah layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tinggi penuh layar */
 }
 
-.kartu-profil {
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+/* Kotak pembungkus utama (Card) */
+.container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px; /* Membuat sudut kotak sedikit melengkung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan lembut */
+    width: 100%;
+    max-width: 400px; /* Batas maksimal lebar kotak */
 }
 
-.kartu-profil img {
-  width: 150px;
-  border-radius: 50%;
+/* Judul di dalam kotak */
+.container h1 {
+    text-align: center; /* Membuat teks berada di tengah */
+    color: #333333;
+    margin-bottom: 20px;
 }
 
-.kartu-profil {
-  text-align: center;
+/* Pengaturan jarak antar form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label teks di atas input */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+    font-weight: bold;
+}
+
+/* Kotak input teks dan angka */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Agar padding tidak merusak lebar elemen */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Tombol aksi */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer; /* Mengubah kursor menjadi bentuk tangan saat di-hover */
+    transition: background-color 0.2s; /* Efek transisi halus saat disentuh */
+}
+
+/* Warna tombol berubah sedikit gelap ketika kursor berada di atasnya */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Area hasil output */
+#outputArea {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    color: #333;
 }
